@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+/************* header css start here *************/
+
+.login .nav-link,
+.manage-facility .nav-link {
+    background: #65C87A;
+    border-radius: 4px;
+    border: 1px solid #65C87A;
+}
+
+.login .nav-link:hover {
+    color: #65C87A;
+    background: transparent;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 11px 16px !important;
+}
+
+.manage-facility .nav-link {
+    background: #182A8C;
+    border-radius: 4px;
+    border: 1px solid #182A8C;
+}
+
+.nav-item {
+    padding-left: 16px;
+}
+
+header {
+    height: 72px;
+    line-height: 46px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    background: #fff;
+}
+
+.manage-facility .nav-link:hover {
+    background: transparent;
+    border: 1px solid #182A8C;
+    color: #182A8C;
+}
+
+header li.nav-item.manage-facility {
+    padding-left: 0;
+}
+
+.banner {
+    background-image: url('./assets/images/landing-hero-desktop.jpeg');
+    height: 628px;
+    background-position: 50% 65%;
+    background-size: 130%;
+    position: relative;
+    margin-top: 70px;
+}
+
+.banner:after {
+    background: rgb(0 0 0 / 29%);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.bannertext {
+    display: flex;
+    justify-content: center;
+    height: 628px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 660px;
+    margin: 0 auto;
+    z-index: 9;
+    position: relative;
+}
+
+.bannertext h2 {
+    font-size: 48px;
+    line-height: 74px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 0;
+}
+
+.search-form input {
+    height: 72px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 15px 15px 15px 40px;
+    width: 80%;
+}
+
+.search-form .form-group {
+    position: relative;
+}
+
+.search-form i.fa.fa-search {
+    position: absolute;
+    top: 27px;
+    left: 14px;
+    color: #C4C4C4;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a.navbar-brand {
+    position: relative;
+}
+
+a.navbar-brand:before {
+    position: absolute;
+    content: "";
+    background: #E7E7E7;
+    width: 1px;
+    height: 72px;
+    top: -8px;
+    right: -30px;
+}
+
+
+/*************** header css End here ******************/
+
+.search-form {
+    margin-top: 25px;
+}
+
+button.btn.btn-search {
+    background: #65C87A;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    height: 72px;
+    margin-left: 10px;
+    padding: 10px 25px;
+}
+
+.search-form i.fas.fa-map-marker-alt {
+    position: absolute;
+    right: 147px;
+    margin: 0 auto;
+    top: 23px;
+    color: #000;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button.btn.btn-search:hover {
+    background: transparent;
+    color: #65C87A;
+    border: 1px solid #65C87A;
+}
+
+
+/********** landing page css ********/
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.explore-facilities {
+    padding: 60px 0 45px;
+}
+
+.box img {
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.explore-facilities h2.title {
+    margin-bottom: 40px;
+}
+
+.box {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.box p {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.box:after {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: block;
+    opacity: 0.4;
+    border-radius: 6px;
+}
+
+.spotyworktext span {
+    width: 200px;
+    height: 8px;
+    left: 50px;
+    background: #080808;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.box-one span {
+    width: 24px;
+    height: 24px;
+    background: #000;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.box-one h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #080808;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.box-one p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #080808;
+    margin-top: 8px;
+    padding-right: 25px;
+}
+
+.spotywork {
+    padding-bottom: 60px;
+}
+
+.mobileViwe {
+    display: none;
+}
+
+
+/******* Footer css start here **********/
+
+.footer-logo p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: #fff;
+    padding: 40px 0 0;
+    border-top: 1px solid #EEEEEE;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links ul li i {
+    font-size: 18px;
+    margin-right: 8px;
+    width: 20px;
+}
+
+.footer-links ul li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.footer-icons ul {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer-icons p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #000;
+}
+
+.footer-icons ul li {
+    margin-right: 20px;
+}
+
+
+/*************** footer css End here ******************/
+
+
+/******* responsive start here ********/
+
+@media only screen and (max-width: 991px) {
+    #navbarNav {
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .mobileViwe {
+        display: block;
+    }
+    .desktopViwe {
+        display: none;
+    }
+    footer .col-md-3,
+    footer .col-md-2 {
+        flex: 0 0 49%;
+        max-width: 49%;
+    }
+    .mobileViwe .spotywork {
+        padding: 0;
+    }
+    .box-one {
+        background: #F5F5F5;
+        border-radius: 6px;
+        padding: 15px;
+        margin: 0 25px;
+    }
+    .testimonial {
+        overflow: hidden;
+        margin-bottom: 50px;
+        padding-bottom: 40px;
+    }
+    .slick-dots {
+        bottom: -30px;
+    }
+    .slick-dots li button:before {
+        font-size: 14px;
+        opacity: 0.4;
+        color: #080808 !important;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: 1;
+        color: #080808 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container-fluid {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    a.navbar-brand.mobileViwe {
+        margin: 0;
+    }
+    a.navbar-brand:before {
+        width: 0;
+    }
+    .bannertext h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .banner {
+        height: 360px;
+        background-position: 100%;
+        background-size: cover;
+        position: relative;
+        margin-top: 70px;
+        background-repeat: no-repeat;
+    }
+    .bannertext {
+        height: 350px;
+    }
+    .search-form input {
+        height: 56px;
+        width: 100%;
+    }
+    button.btn.btn-search {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+        height: 56px;
+        font-size: 20px;
+    }
+    .search-form i.fas.fa-map-marker-alt {
+        top: 16px;
+        right: 10px;
+    }
+    .search-form i.fa.fa-search {
+        top: 18px;
+        left: 13px;
+    }
+    .explore-facilities h2.title {
+        margin-bottom: 20px;
+    }
+    h2.title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+    }
+    .spotyworktext span {
+        display: none;
+    }
+    .explore-facilities {
+        padding: 60px 0 30px;
+    }
+    .footer-logo img {
+        width: 100%;
+    }
+    .footer-logo p.mt-5.pt-5 {
+        margin-top: 0 !important;
+        font-weight: 400;
+    }
+    .footer-logo p {
+        padding-bottom: 0;
+    }
+    .footer-logo p {
+        white-space: nowrap;
+    }
+    .footer-logo p.mt-5.pt-5 {
+        white-space: inherit;
+    }
+    .footer-icons ul {
+        padding-bottom: 0;
+    }
+    .footer-icons p.mt-5.pt-5 {
+        margin-top: 25px !important;
+    }
+    p.players {
+        padding-top: 14px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footer-logo p.mt-5.pt-5 {
+        white-space: inherit;
+        padding-top: 2rem !important;
+    }
+    .box-one {
+        padding: 15px;
+        margin: 0 5px;
+    }
+    .slick-dots {
+        bottom: -40px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .nav-item {
+        padding-left: 10px;
+    }
+}
